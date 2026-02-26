@@ -20,5 +20,4 @@ def test_dropdown_selection(page: Page):
     # Verify the selection
     assert dropdown.input_value() == "2"
 
-
     print("Dropdown test passed")
