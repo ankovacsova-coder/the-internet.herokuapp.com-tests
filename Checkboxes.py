@@ -20,6 +20,7 @@ def test_check_checkbox(page: Page):
     print("Checkbox test passed")
 
 
+
 def test_uncheck_checkbox(page: Page):
     """Test unchecking a pre-checked checkbox"""
     page.goto("https://the-internet.herokuapp.com/checkboxes")
