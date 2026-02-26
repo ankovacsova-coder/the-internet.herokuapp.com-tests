@@ -28,6 +28,7 @@ def test_uncheck_checkbox(page: Page):
     # Find the second checkbox (already checked)
     checkbox2 = page.locator("input[type='checkbox']").nth(1)
 
+
     # Verify it's checked
     assert checkbox2.is_checked()
 
