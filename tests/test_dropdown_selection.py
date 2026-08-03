@@ -19,6 +19,7 @@ def test_dropdown_select_by_value(page: Page):
     """Test selecting Option 1 by its value attribute"""
     page.goto(DROPDOWN_URL)
 
+
     dropdown = page.locator("#dropdown")
 
     # Select by value attribute

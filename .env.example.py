@@ -1,0 +1,3 @@
+# Basic Authentication Credentials
+BASIC_AUTH_USERNAME=your_username_here
+BASIC_AUTH_PASSWORD=your_password_here
