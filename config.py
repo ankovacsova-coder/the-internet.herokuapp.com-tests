@@ -6,7 +6,7 @@ load_dotenv()
 
 BASE_URL = "https://the-internet.herokuapp.com"
 BROWSER = "chromium"
-HEADLESS = False
+HEADLESS = True
 SLOW_MO = 500
 
 # Credentials
